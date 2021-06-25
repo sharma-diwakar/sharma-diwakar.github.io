@@ -594,3 +594,34 @@ border-radius: .25rem;
 {
       padding-top: 3em;
 }
+
+.header-menu-name {
+
+    float: left;
+    vertical-align: baseline;
+    padding-top: 1%;
+    margin-right: 5%;
+    color: #2e7082;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.affix-top .header-menu-name
+{
+  display: none;
+}
+
+.affix-top .navbar-collapse
+{
+  padding-left: 20%;
+}
+
+.affix .navbar-collapse
+{
+  padding-left: 0;
+}
+
+.affix .header-menu-name
+{
+  display: inline-block;
+}
